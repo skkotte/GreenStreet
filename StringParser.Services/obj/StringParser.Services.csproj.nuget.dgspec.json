@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Services\\StringParser.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Abstractions\\StringParser.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Abstractions\\StringParser.Abstractions.csproj",
+        "projectName": "StringParser.Abstractions",
+        "projectPath": "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Abstractions\\StringParser.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\kanha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kanha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Services\\StringParser.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Services\\StringParser.Services.csproj",
+        "projectName": "StringParser.Services",
+        "projectPath": "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Services\\StringParser.Services.csproj",
+        "packagesPath": "C:\\Users\\kanha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kanha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Abstractions\\StringParser.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\kanha\\Desktop\\Greenstreet Project\\StringParser.Abstractions\\StringParser.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
