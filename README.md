@@ -41,7 +41,7 @@ Submission of your solution should be as a link to a GitHub, or other Git-based,
       * Pages - stringProcessor.js
       * tests/e2e - stringProcessor.spec.js
  * Tests are validated based on following acceptance criteria
- * Processes an input string according to specified rules:Eg:
+   Processes an input string according to specified rules:Eg:
      * The output string must not be null or empty.
      * The output string must have a maximum length of 15 characters.
      * Contiguous duplicate characters in the same case should be reduced to a single character.
