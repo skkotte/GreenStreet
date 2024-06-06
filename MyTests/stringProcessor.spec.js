@@ -1,7 +1,7 @@
 // Import Playwright's test runner functions
 const { test, expect } = require('@playwright/test');
 // Import the processString function to be tested
-const { processString } = require('../Pages/stringProcessor');
+const { processString } = require('../../Pages/stringProcessor');
 
 // Describe a suite of tests for the StringProcessor
 test.describe('StringProcessor', () => {
