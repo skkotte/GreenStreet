@@ -34,16 +34,19 @@ Submission of your solution should be as a link to a GitHub, or other Git-based,
  * Command to run test - 
       * npx playwright test ./e2e/stringProcessor.spec.js
  * Node modules and playwright dependancies are already included within this repo
- *  This tests are ran on windows operating system. if anyone like to run this test on mac OS , then install npm package . To do so use the command to install - npm install from project directory
-# Framework Implementation :
+ * This tests are ran on windows operating system. if anyone like to run this test on mac OS , then install npm package . To do so use the command to install - npm install from project directory
+ * Test are running on on chromium, webkit snf firefox
+ * Command for view report
+    * npx playwright show-report
+ # Framework Implementation :
  *  Tests are implemented using component model with playwright using javascript. Framework includes the developer unit tests and e2e test for UAT.
  *  There are two folders called 
       * Pages - stringProcessor.js
       * tests/e2e - stringProcessor.spec.js
- * Tests are validated based on following acceptance criteria
-   Processes an input string according to specified rules:Eg:
+ * Tests are validated based on following acceptance criteria for input string
      * The output string must not be null or empty.
      * The output string must have a maximum length of 15 characters.
      * Contiguous duplicate characters in the same case should be reduced to a single character.
      * Dollar sign ($) should be replaced with a pound sign (£).
      * Underscores (_) and the number 4 should be removed.
+  
