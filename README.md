@@ -32,15 +32,15 @@ Instructions :
 To run the tests 
 -> Node Package Management must be installed (npm)
 -> Command to run test - 
-# npx playwright test ./e2e/stringProcessor.spec.js
+npx playwright test ./e2e/stringProcessor.spec.js
 -> Node modules and playwright dependancies are already included within this repo
 -> This tests are ran on windows operating system. if anyone like to run this test on mac OS , then install npm package . To do so use the command to install - npm install from project directory
 Framework Implementation :
 -> Tests are implemented using component model with playwright using javascript. Framework includes the developer unit tests and e2e test for UAT.
 -> There are two folders called 
-# Pages - stringProcessor.js
-# tests/e2e - stringProcessor.spec.js
-# Tests are validated based on following acceptance criteria
+Pages - stringProcessor.js
+tests/e2e - stringProcessor.spec.js
+Tests are validated based on following acceptance criteria
 Processes an input string according to specified rules:Eg:
  * The output string must not be null or empty.
  * The output string must have a maximum length of 15 characters.
