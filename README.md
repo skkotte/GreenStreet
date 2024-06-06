@@ -30,12 +30,12 @@ Submission of your solution should be as a link to a GitHub, or other Git-based,
  * Tech stack used : Playwright with javascript , VScode Editor
  * Instructions : 
  * To run the tests 
- * Node Package Management must be installed (npm)
+ * Node moduls must be installed using command
+     * npm install 
  * Command to run test - 
       * npx playwright test ./e2e/stringProcessor.spec.js
- * Node modules and playwright dependancies are already included within this repo
  * This tests are ran on windows operating system. if anyone like to run this test on mac OS , then install npm package . To do so use the command to install - npm install from project directory
- * Test are running on on chromium, webkit snf firefox
+ * Test are running on on chromium, webkit and firefox
  * Command for view report
     * npx playwright show-report
  # Framework Implementation :
