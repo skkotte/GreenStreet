@@ -27,23 +27,23 @@ The solution has no runnable component (e.g. cannot press F5) and is expected to
 Submission of your solution should be as a link to a GitHub, or other Git-based, repo that we are able to access and clone for review.
 
  # TESTS : 
-Tech stack used : Playwright with javascript , VScode Editor
-Instructions : 
-To run the tests 
--> Node Package Management must be installed (npm)
--> Command to run test - 
-npx playwright test ./e2e/stringProcessor.spec.js
--> Node modules and playwright dependancies are already included within this repo
--> This tests are ran on windows operating system. if anyone like to run this test on mac OS , then install npm package . To do so use the command to install - npm install from project directory
-Framework Implementation :
--> Tests are implemented using component model with playwright using javascript. Framework includes the developer unit tests and e2e test for UAT.
--> There are two folders called 
-Pages - stringProcessor.js
-tests/e2e - stringProcessor.spec.js
-Tests are validated based on following acceptance criteria
-Processes an input string according to specified rules:Eg:
- * The output string must not be null or empty.
- * The output string must have a maximum length of 15 characters.
- * Contiguous duplicate characters in the same case should be reduced to a single character.
- * Dollar sign ($) should be replaced with a pound sign (£).
- * Underscores (_) and the number 4 should be removed.
+ * Tech stack used : Playwright with javascript , VScode Editor
+ * Instructions : 
+ * To run the tests 
+ * Node Package Management must be installed (npm)
+ * Command to run test - 
+      * npx playwright test ./e2e/stringProcessor.spec.js
+ * Node modules and playwright dependancies are already included within this repo
+ *  This tests are ran on windows operating system. if anyone like to run this test on mac OS , then install npm package . To do so use the command to install - npm install from project directory
+# Framework Implementation :
+ *  Tests are implemented using component model with playwright using javascript. Framework includes the developer unit tests and e2e test for UAT.
+ *  There are two folders called 
+      * Pages - stringProcessor.js
+      * tests/e2e - stringProcessor.spec.js
+ * Tests are validated based on following acceptance criteria
+ * Processes an input string according to specified rules:Eg:
+     * The output string must not be null or empty.
+     * The output string must have a maximum length of 15 characters.
+     * Contiguous duplicate characters in the same case should be reduced to a single character.
+     * Dollar sign ($) should be replaced with a pound sign (£).
+     * Underscores (_) and the number 4 should be removed.
