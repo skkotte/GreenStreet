@@ -3,13 +3,13 @@ const { test, expect } = require('@playwright/test');
 // Import the processString function to be tested
 const { processString } = require('../../Pages/stringProcessor');
 
-// Describe a suite of tests for the StringProcessor
+// Tests for the StringProcessor handler
 test.describe('StringProcessor', () => {
-    // Define a test case for processing strings according to the given specifications
+    // Defining test case for processing strings according to the given acceptance criteria
     test('should process strings according to the given specifications', async ({}) => {
         // Array of input strings to be processed
         const inputStrings = [
-            'AAAc91%cWwWkLq$1ci3_848v3d__K', // A typical input string with various characters
+            'EEvb82&uVvNsTj$3ij5_352d7b__Y', // A typical input string with various characters
             null,                           // A null input string
             '',                             // An empty input string
             'AAA111bbb$$$ccc___444',        // A string with duplicates, special characters, and numbers
@@ -18,7 +18,7 @@ test.describe('StringProcessor', () => {
 
         // Array of expected output strings after processing
         const expectedOutputs = [
-            'Ac91%cWwWkLq£1c',  // Processed output for the first input string
+            'Evb82&uVvNsTj£3',  // Processed output for the first input string
             null,               // Expected output for a null input string
             null,               // Expected output for an empty input string
             'A111b£££c',        // Processed output for the fourth input string
